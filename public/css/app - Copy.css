@@ -1,0 +1,68 @@
+#main-wrap {
+  position: relative; }
+
+header {
+  position: relative; }
+
+#main-nav a {
+  color: white; }
+
+.banner {
+  position: relative;
+  top: 0;
+  z-index: -1; }
+
+.banner img {
+  width: 100%;
+  max-height: 40vw; }
+
+@media all and (max-width: 720px) {
+  .banner img {
+    max-height: 70vw; } }
+
+/*-- Bootstrap -- */
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.46); }
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff; }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: rgba(251, 251, 227, 0.19); }
+
+figure {
+  position: relative; }
+
+/*-- Content -- */
+/*-- Mission and Vision -- */
+.mission-vision {
+  text-align: center;
+  background-color: #eee; }
+
+.mv-header {
+  font-size: 3em; }
+
+.mv-content {
+  font-size: 1.3em; }
+
+/*-- Parish Officers -- */
+.parish-officers .po-header {
+  text-align: center; }
+
+.po-header {
+  font-size: 3em; }
+
+.po-content {
+  font-size: 1.3em; }
+
+/*Footer*/
+.footer {
+  width: 100%;
+  max-height: 50vw;
+  background: #3c3c3c;
+  color: white; }
+
+/*# sourceMappingURL=app.css.map */

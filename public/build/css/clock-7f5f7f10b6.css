@@ -1,0 +1,34 @@
+#clock {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  margin: 20px auto 0 auto;
+  background: url(/img/settings/clockface.png);
+  list-style: none; }
+
+#sec, #min, #hour {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 15px;
+  height: 150px;
+  top: 4%;
+  left: 45%; }
+
+#sec {
+  background: url(/img/settings/sechand.png);
+  z-index: 3; }
+
+#min {
+  background: url(/img/settings/minhand.png);
+  z-index: 2; }
+
+#hour {
+  background: url(/img/settings/hourhand.png);
+  z-index: 1; }
+
+/*# sourceMappingURL=clock.css.map */
