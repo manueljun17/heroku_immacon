@@ -53,9 +53,9 @@ class ParishofficerTableSeeder extends Seeder
         foreach (range(1, 40) as $index) 
         {
         	$parishofficers = [
-        		'name' => ''. rand(1, 9999),
-        		'position' => ''. rand(1, 9999),
-        		'description' => ''. rand(1, 9999),
+        		'name' => 'name'. rand(1, 9999),
+        		'position' => 'position'. rand(1, 9999),
+        		'description' => 'description'. rand(1, 9999),
         		'user_image' => 'image/profile/'. rand(1, 9) . '.png', 
         		'created_at' => new DateTime,
         		'updated_at' => new DateTime,   
