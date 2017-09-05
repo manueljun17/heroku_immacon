@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Faker\Factory as Faker;
+// use Faker\Factory as Faker;
 use App\Parishofficers;
 class ParishofficerTableSeeder extends Seeder
 {
@@ -36,12 +36,26 @@ class ParishofficerTableSeeder extends Seeder
         $faker = Faker::create();
         $parishofficers = [];
 
+        // foreach (range(1, 40) as $index) 
+        // {
+        // 	$parishofficers = [
+        // 		'name' => $faker->name,
+        // 		'position' => $faker->jobTitle,
+        // 		'description' => $faker->email,
+        // 		'user_image' => 'image/profile/'. rand(1, 9) . '.png', 
+        // 		'created_at' => new DateTime,
+        // 		'updated_at' => new DateTime,   
+        // 	];
+            
+        //     $parishofficer = Parishofficers::create($parishofficers);
+        //     $parishofficer->organizations()->sync( [rand(1,2) ]);	
+        // }
         foreach (range(1, 40) as $index) 
         {
         	$parishofficers = [
-        		'name' => $faker->name,
-        		'position' => $faker->jobTitle,
-        		'description' => $faker->email,
+        		'name' => ''. rand(1, 9999),
+        		'position' => ''. rand(1, 9999),
+        		'description' => ''. rand(1, 9999),
         		'user_image' => 'image/profile/'. rand(1, 9) . '.png', 
         		'created_at' => new DateTime,
         		'updated_at' => new DateTime,   
