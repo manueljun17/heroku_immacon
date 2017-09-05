@@ -33,7 +33,7 @@ class ParishofficerTableSeeder extends Seeder
     public function run()
     {
 
-        $faker = Faker::create();
+        // $faker = Faker::create();
         $parishofficers = [];
 
         // foreach (range(1, 40) as $index) 
