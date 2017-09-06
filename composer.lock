@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f82cae9804056a0459391586ba6f8c97",
+    "content-hash": "c41788677f95b15ee97b63a5bf24dfae",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1988,16 +1988,16 @@
         },
         {
             "name": "unisharp/laravel-filemanager",
-            "version": "1.6.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/UniSharp/laravel-filemanager.git",
-                "reference": "8ffe49ae2b0b371c40563c37c0356ec484ff2ee9"
+                "reference": "63a788e5f62d3e9c8b8be8fd5bac9c9d59325e29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UniSharp/laravel-filemanager/zipball/8ffe49ae2b0b371c40563c37c0356ec484ff2ee9",
-                "reference": "8ffe49ae2b0b371c40563c37c0356ec484ff2ee9",
+                "url": "https://api.github.com/repos/UniSharp/laravel-filemanager/zipball/63a788e5f62d3e9c8b8be8fd5bac9c9d59325e29",
+                "reference": "63a788e5f62d3e9c8b8be8fd5bac9c9d59325e29",
                 "shasum": ""
             },
             "require": {
@@ -2005,10 +2005,18 @@
                 "intervention/image": "2.*",
                 "php": ">=5.4.0"
             },
+            "require-dev": {
+                "orchestra/testbench": "~3.0",
+                "phpspec/phpspec": "~2.1",
+                "phpunit/phpunit": "~4.8"
+            },
             "suggest": {
                 "ext-gd": "to use GD library based image processing.",
                 "ext-imagick": "to use Imagick based image processing."
             },
+            "bin": [
+                "bin/debug"
+            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -2040,7 +2048,7 @@
                 "tinymce",
                 "upload"
             ],
-            "time": "2016-08-03T12:18:58+00:00"
+            "time": "2017-06-11T15:15:20+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
