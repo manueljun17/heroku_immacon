@@ -42,7 +42,7 @@ class ContactController extends Controller
         {
             return redirect('contact');
         }
-        $defaultImage = 'img/tmp/firstbanner.jpg';
+        $defaultImage = 'img/settings/1.jpg';
         return view('contact.edit', compact('contact','defaultImage'));
     }
 
