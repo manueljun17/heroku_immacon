@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bad8c0efe2efaaedde927cf4f660493e",
+    "content-hash": "ea3af14592d1bb4dd5134c0e2c2bcfec",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1988,16 +1988,16 @@
         },
         {
             "name": "unisharp/laravel-filemanager",
-            "version": "1.6.4",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/UniSharp/laravel-filemanager.git",
-                "reference": "3716c85a09633ae96a73953ae8e3d0a907fb704e"
+                "reference": "4ad58cb7117ab23dc2a96bdf748f120db4945433"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UniSharp/laravel-filemanager/zipball/3716c85a09633ae96a73953ae8e3d0a907fb704e",
-                "reference": "3716c85a09633ae96a73953ae8e3d0a907fb704e",
+                "url": "https://api.github.com/repos/UniSharp/laravel-filemanager/zipball/4ad58cb7117ab23dc2a96bdf748f120db4945433",
+                "reference": "4ad58cb7117ab23dc2a96bdf748f120db4945433",
                 "shasum": ""
             },
             "require": {
@@ -2044,7 +2044,7 @@
                 "tinymce",
                 "upload"
             ],
-            "time": "2017-02-04T14:52:53+00:00"
+            "time": "2017-01-03T09:54:33+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
