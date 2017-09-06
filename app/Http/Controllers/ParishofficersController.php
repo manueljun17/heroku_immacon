@@ -52,7 +52,6 @@ class ParishOfficersController extends Controller
             ->orderBy('id', 'desc')
             ->take(5)
             ->get();
-
         //Convert to json
         foreach ($parishofficers as $parishofficer) {
             $results[] = ['id' => $parishofficer->id, 'value' => $parishofficer->name];
