@@ -39,6 +39,7 @@ class ParishOfficersController extends Controller
 
     public function autocomplete(Request $request)
     {
+        
         //Prevent this method called by non ajax
         if($request->ajax())
         {
